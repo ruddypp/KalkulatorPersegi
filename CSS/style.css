@@ -1,0 +1,162 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: arial;
+}
+header {
+  background-color: rgb(33, 139, 192);
+  color: lightgray;
+  padding: 25px;
+  text-align: center;
+}
+header span {
+  color: white;
+  font-size: 45px;
+}
+main {
+  background-color: whitesmoke;
+  margin-top: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+article {
+  color: darkslategray;
+  text-align: center;
+}
+#h-article {
+  padding: 10px;
+}
+#p-article {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#nav {
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+#a-nav {
+  text-decoration: none;
+  list-style-type: none;
+  color: darkslategray;
+  display: inline-block;
+  transition: color 0.3s;
+}
+#a-nav:hover{
+color: white;
+}
+#li-nav {
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+#li-nav:hover {
+  background-color: rgb(34, 101, 179);
+  border-radius: 10px;
+  transition: .3s ease-in-out;
+}
+#li-nav1 {
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+#li-nav1:hover {
+  background-color: rgb(34, 101, 179);
+  border-radius: 10px;
+   transition: .3s ease-in-out;
+}
+
+#container {
+  margin-top: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
+  border: 1px solid rgb(33, 139, 192);
+}
+#h-atas {
+  background-color: rgb(33, 139, 192);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+#h-atas1 {
+  background-color: rgb(33, 139, 192);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+#img-atas {
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#tulisan{
+  padding-left: 1%;
+}
+#h-persegi {
+  margin-bottom: 10px;
+}
+#luas {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+#keliling{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+#c-button{
+  text-align: center;
+}
+#c-button1{
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#search-button {
+  margin-top: 10px;
+  background-color: rgb(33, 139, 192);
+  color: white;
+  padding: 7px;
+  border: 3px solid rgb(33, 139, 192);
+  border-radius: 5px;
+  width: 80px;
+}
+#search-button1 {
+  margin-top: 10px;
+  color: white;
+  background-color: orange;
+  padding: 7px;
+  border: 3px solid orange;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.footer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+footer{
+  color: white;
+  padding: 20px;
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
